@@ -5,9 +5,7 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-   Entendi. Vou criar um modelo semelhante sobre carros esportivos:
-
-```json
+   
 {
     enunciado: "Você está pensando em comprar um carro esportivo e está avaliando as opções disponíveis no mercado. Qual característica você considera mais importante?",
     alternativas: [
