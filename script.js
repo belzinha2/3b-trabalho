@@ -68,16 +68,18 @@ const perguntas = [
         {
             texto: "Prefere manter sua própria abordagem e estilo de condução.",
             afirmacao: "Confia em seu próprio estilo e preferências, acreditando que sua abordagem pessoal é a melhor."
-        }
-    ]
-}
-```
+           }
+        ]
+    },
+];
+
+
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta() {
-    if (atual >= perguntas.length) {
+   if (atual >= perguntas.length) {
         mostraResultado();
         return;
     }
